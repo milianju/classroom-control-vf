@@ -48,6 +48,6 @@ node default {
   owner   => 'root',
   group   => 'root',
   mode    => '0644',
-  content => "Hey, Puppet is sucks!\n",
+  content => "Hey, Puppets are dancing!\n",
 }
 }
