@@ -44,4 +44,6 @@ node default {
   #   class { 'my_class': }
  exec { cowsay 'Welcome to ${::fqdn}!' > /etc/motd"}
  path => '/usr/local/bin' 
+ include users
 }
+
