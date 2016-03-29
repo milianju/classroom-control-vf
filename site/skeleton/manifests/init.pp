@@ -7,7 +7,7 @@ mode => "0755",
 }
 file { "/etc/skel/.bashrc" : 
 ensure => file, 
-source => "puppet:///modules/skeleton/etc/skel/.bashrc"
+source => "puppet:///modules/skeleton/etc/skel/.bashrc",
 owner => "root",
 group => "root",
 mode => "0644",
