@@ -45,5 +45,6 @@ node default {
  exec { "cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
  path => '/usr/local/bin' }
  include users
+ include skeleton
 }
 
